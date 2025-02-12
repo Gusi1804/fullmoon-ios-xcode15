@@ -3,39 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		860F26A42CBC31D6004E8D40 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 860F26A32CBC31D6004E8D40 /* MarkdownUI */; };
 		869B97622D0DD46B0078DF5A /* MLXLMCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 869B97612D0DD46B0078DF5A /* MLXLMCommon */; };
 		869B97642D0DD4D80078DF5A /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = 869B97632D0DD4D80078DF5A /* MLXLLM */; };
+		CA0CE2A72D5C246B00DD8FD2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2872D5C246B00DD8FD2 /* Data.swift */; };
+		CA0CE2A82D5C246B00DD8FD2 /* DeviceStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2882D5C246B00DD8FD2 /* DeviceStat.swift */; };
+		CA0CE2A92D5C246B00DD8FD2 /* LLMEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2892D5C246B00DD8FD2 /* LLMEvaluator.swift */; };
+		CA0CE2AA2D5C246B00DD8FD2 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE28A2D5C246B00DD8FD2 /* Models.swift */; };
+		CA0CE2AB2D5C246B00DD8FD2 /* RequestLLMIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE28B2D5C246B00DD8FD2 /* RequestLLMIntent.swift */; };
+		CA0CE2AC2D5C246B00DD8FD2 /* ChatsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE28F2D5C246B00DD8FD2 /* ChatsListView.swift */; };
+		CA0CE2AD2D5C246B00DD8FD2 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2902D5C246B00DD8FD2 /* ChatView.swift */; };
+		CA0CE2AE2D5C246B00DD8FD2 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2912D5C246B00DD8FD2 /* ConversationView.swift */; };
+		CA0CE2AF2D5C246B00DD8FD2 /* DeviceNotSupportedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2932D5C246B00DD8FD2 /* DeviceNotSupportedView.swift */; };
+		CA0CE2B02D5C246B00DD8FD2 /* MoonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2942D5C246B00DD8FD2 /* MoonAnimationView.swift */; };
+		CA0CE2B12D5C246B00DD8FD2 /* OnboardingDownloadingModelProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2952D5C246B00DD8FD2 /* OnboardingDownloadingModelProgressView.swift */; };
+		CA0CE2B22D5C246B00DD8FD2 /* OnboardingInstallModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2962D5C246B00DD8FD2 /* OnboardingInstallModelView.swift */; };
+		CA0CE2B32D5C246B00DD8FD2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2972D5C246B00DD8FD2 /* OnboardingView.swift */; };
+		CA0CE2B42D5C246B00DD8FD2 /* AppearanceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2992D5C246B00DD8FD2 /* AppearanceSettingsView.swift */; };
+		CA0CE2B52D5C246B00DD8FD2 /* ChatsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE29A2D5C246B00DD8FD2 /* ChatsSettingsView.swift */; };
+		CA0CE2B62D5C246B00DD8FD2 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE29B2D5C246B00DD8FD2 /* CreditsView.swift */; };
+		CA0CE2B72D5C246B00DD8FD2 /* ModelsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE29C2D5C246B00DD8FD2 /* ModelsSettingsView.swift */; };
+		CA0CE2B82D5C246B00DD8FD2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE29D2D5C246B00DD8FD2 /* SettingsView.swift */; };
+		CA0CE2B92D5C246B00DD8FD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2A12D5C246B00DD8FD2 /* ContentView.swift */; };
+		CA0CE2BA2D5C246B00DD8FD2 /* fullmoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CE2A32D5C246B00DD8FD2 /* fullmoonApp.swift */; };
+		CA0CE2BB2D5C246B00DD8FD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0CE28D2D5C246B00DD8FD2 /* Preview Assets.xcassets */; };
+		CA0CE2BC2D5C246B00DD8FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0CE2A02D5C246B00DD8FD2 /* Assets.xcassets */; };
+		CA0CE2BE2D5C246B00DD8FD2 /* moon-phases.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CA0CE2A52D5C246B00DD8FD2 /* moon-phases.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		860E9CCE2CB055B000C5BB52 /* fullmoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fullmoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0CE2872D5C246B00DD8FD2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		CA0CE2882D5C246B00DD8FD2 /* DeviceStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStat.swift; sourceTree = "<group>"; };
+		CA0CE2892D5C246B00DD8FD2 /* LLMEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMEvaluator.swift; sourceTree = "<group>"; };
+		CA0CE28A2D5C246B00DD8FD2 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CA0CE28B2D5C246B00DD8FD2 /* RequestLLMIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestLLMIntent.swift; sourceTree = "<group>"; };
+		CA0CE28D2D5C246B00DD8FD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA0CE28F2D5C246B00DD8FD2 /* ChatsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsListView.swift; sourceTree = "<group>"; };
+		CA0CE2902D5C246B00DD8FD2 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		CA0CE2912D5C246B00DD8FD2 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		CA0CE2932D5C246B00DD8FD2 /* DeviceNotSupportedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceNotSupportedView.swift; sourceTree = "<group>"; };
+		CA0CE2942D5C246B00DD8FD2 /* MoonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonAnimationView.swift; sourceTree = "<group>"; };
+		CA0CE2952D5C246B00DD8FD2 /* OnboardingDownloadingModelProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDownloadingModelProgressView.swift; sourceTree = "<group>"; };
+		CA0CE2962D5C246B00DD8FD2 /* OnboardingInstallModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingInstallModelView.swift; sourceTree = "<group>"; };
+		CA0CE2972D5C246B00DD8FD2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		CA0CE2992D5C246B00DD8FD2 /* AppearanceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceSettingsView.swift; sourceTree = "<group>"; };
+		CA0CE29A2D5C246B00DD8FD2 /* ChatsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsSettingsView.swift; sourceTree = "<group>"; };
+		CA0CE29B2D5C246B00DD8FD2 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		CA0CE29C2D5C246B00DD8FD2 /* ModelsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsSettingsView.swift; sourceTree = "<group>"; };
+		CA0CE29D2D5C246B00DD8FD2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CA0CE2A02D5C246B00DD8FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA0CE2A12D5C246B00DD8FD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA0CE2A22D5C246B00DD8FD2 /* fullmoon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fullmoon.entitlements; sourceTree = "<group>"; };
+		CA0CE2A32D5C246B00DD8FD2 /* fullmoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fullmoonApp.swift; sourceTree = "<group>"; };
+		CA0CE2A42D5C246B00DD8FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0CE2A52D5C246B00DD8FD2 /* moon-phases.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moon-phases.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		258729302D0785A700BB7B6F /* Exceptions for "fullmoon" folder in "fullmoon" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 860E9CCD2CB055B000C5BB52 /* fullmoon */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		860E9CD02CB055B000C5BB52 /* fullmoon */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				258729302D0785A700BB7B6F /* Exceptions for "fullmoon" folder in "fullmoon" target */,
-			);
-			path = fullmoon;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		860E9CCB2CB055B000C5BB52 /* Frameworks */ = {
@@ -54,7 +81,7 @@
 		860E9CC52CB055B000C5BB52 = {
 			isa = PBXGroup;
 			children = (
-				860E9CD02CB055B000C5BB52 /* fullmoon */,
+				CA0CE2A62D5C246B00DD8FD2 /* fullmoon */,
 				869B975E2D0DD3EC0078DF5A /* Frameworks */,
 				860E9CCF2CB055B000C5BB52 /* Products */,
 			);
@@ -75,6 +102,86 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CA0CE28C2D5C246B00DD8FD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CE2872D5C246B00DD8FD2 /* Data.swift */,
+				CA0CE2882D5C246B00DD8FD2 /* DeviceStat.swift */,
+				CA0CE2892D5C246B00DD8FD2 /* LLMEvaluator.swift */,
+				CA0CE28A2D5C246B00DD8FD2 /* Models.swift */,
+				CA0CE28B2D5C246B00DD8FD2 /* RequestLLMIntent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA0CE28E2D5C246B00DD8FD2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CE28D2D5C246B00DD8FD2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA0CE2922D5C246B00DD8FD2 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CE28F2D5C246B00DD8FD2 /* ChatsListView.swift */,
+				CA0CE2902D5C246B00DD8FD2 /* ChatView.swift */,
+				CA0CE2912D5C246B00DD8FD2 /* ConversationView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		CA0CE2982D5C246B00DD8FD2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CE2932D5C246B00DD8FD2 /* DeviceNotSupportedView.swift */,
+				CA0CE2942D5C246B00DD8FD2 /* MoonAnimationView.swift */,
+				CA0CE2952D5C246B00DD8FD2 /* OnboardingDownloadingModelProgressView.swift */,
+				CA0CE2962D5C246B00DD8FD2 /* OnboardingInstallModelView.swift */,
+				CA0CE2972D5C246B00DD8FD2 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CA0CE29E2D5C246B00DD8FD2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CE2992D5C246B00DD8FD2 /* AppearanceSettingsView.swift */,
+				CA0CE29A2D5C246B00DD8FD2 /* ChatsSettingsView.swift */,
+				CA0CE29B2D5C246B00DD8FD2 /* CreditsView.swift */,
+				CA0CE29C2D5C246B00DD8FD2 /* ModelsSettingsView.swift */,
+				CA0CE29D2D5C246B00DD8FD2 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CA0CE29F2D5C246B00DD8FD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CE2922D5C246B00DD8FD2 /* Chat */,
+				CA0CE2982D5C246B00DD8FD2 /* Onboarding */,
+				CA0CE29E2D5C246B00DD8FD2 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA0CE2A62D5C246B00DD8FD2 /* fullmoon */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CE28C2D5C246B00DD8FD2 /* Models */,
+				CA0CE28E2D5C246B00DD8FD2 /* Preview Content */,
+				CA0CE29F2D5C246B00DD8FD2 /* Views */,
+				CA0CE2A02D5C246B00DD8FD2 /* Assets.xcassets */,
+				CA0CE2A12D5C246B00DD8FD2 /* ContentView.swift */,
+				CA0CE2A22D5C246B00DD8FD2 /* fullmoon.entitlements */,
+				CA0CE2A32D5C246B00DD8FD2 /* fullmoonApp.swift */,
+				CA0CE2A42D5C246B00DD8FD2 /* Info.plist */,
+				CA0CE2A52D5C246B00DD8FD2 /* moon-phases.mp4 */,
+			);
+			path = fullmoon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +196,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				860E9CD02CB055B000C5BB52 /* fullmoon */,
 			);
 			name = fullmoon;
 			packageProductDependencies = (
@@ -119,6 +223,7 @@
 				};
 			};
 			buildConfigurationList = 860E9CC92CB055B000C5BB52 /* Build configuration list for PBXProject "fullmoon" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -131,7 +236,6 @@
 				860E9CE22CB0564600C5BB52 /* XCRemoteSwiftPackageReference "mlx-swift-examples" */,
 				860F26A22CBC31D6004E8D40 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
 			);
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 860E9CCF2CB055B000C5BB52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,6 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0CE2BB2D5C246B00DD8FD2 /* Preview Assets.xcassets in Resources */,
+				CA0CE2BC2D5C246B00DD8FD2 /* Assets.xcassets in Resources */,
+				CA0CE2BE2D5C246B00DD8FD2 /* moon-phases.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +263,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0CE2A72D5C246B00DD8FD2 /* Data.swift in Sources */,
+				CA0CE2A82D5C246B00DD8FD2 /* DeviceStat.swift in Sources */,
+				CA0CE2A92D5C246B00DD8FD2 /* LLMEvaluator.swift in Sources */,
+				CA0CE2AA2D5C246B00DD8FD2 /* Models.swift in Sources */,
+				CA0CE2AB2D5C246B00DD8FD2 /* RequestLLMIntent.swift in Sources */,
+				CA0CE2AC2D5C246B00DD8FD2 /* ChatsListView.swift in Sources */,
+				CA0CE2AD2D5C246B00DD8FD2 /* ChatView.swift in Sources */,
+				CA0CE2AE2D5C246B00DD8FD2 /* ConversationView.swift in Sources */,
+				CA0CE2AF2D5C246B00DD8FD2 /* DeviceNotSupportedView.swift in Sources */,
+				CA0CE2B02D5C246B00DD8FD2 /* MoonAnimationView.swift in Sources */,
+				CA0CE2B12D5C246B00DD8FD2 /* OnboardingDownloadingModelProgressView.swift in Sources */,
+				CA0CE2B22D5C246B00DD8FD2 /* OnboardingInstallModelView.swift in Sources */,
+				CA0CE2B32D5C246B00DD8FD2 /* OnboardingView.swift in Sources */,
+				CA0CE2B42D5C246B00DD8FD2 /* AppearanceSettingsView.swift in Sources */,
+				CA0CE2B52D5C246B00DD8FD2 /* ChatsSettingsView.swift in Sources */,
+				CA0CE2B62D5C246B00DD8FD2 /* CreditsView.swift in Sources */,
+				CA0CE2B72D5C246B00DD8FD2 /* ModelsSettingsView.swift in Sources */,
+				CA0CE2B82D5C246B00DD8FD2 /* SettingsView.swift in Sources */,
+				CA0CE2B92D5C246B00DD8FD2 /* ContentView.swift in Sources */,
+				CA0CE2BA2D5C246B00DD8FD2 /* fullmoonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
